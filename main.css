@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+* {
+	/*transition: all .5s;*/
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'PT Sans', monospace;
+	/*background-color: #FFF;*/
+}
+
+form {
+	margin: auto;
+}
+
+input {
+	color: #000;
+	margin: 5px auto;
+	padding: 3px;
+}
+
+.calc {
+	color: #FFF;
+	padding: 10px;
+	background: #566E9E;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.answer {
+	margin: 10px auto;
+}
+
+.img {
+	width: 106;
+	height: 128;
+	margin: auto;
+	background-image: url(https://vk.com/images/stickers/3/128.png);
+}
+/* iPhone 5 */
+@media only screen and (min-width: 320px) {
+	.calc {
+		font-size: 1.5em;
+		width: 320px;
+	}
+	.img {
+
+	}
+}
+@media only screen and (min-width: 375px) {
+	.calc {
+		font-size: 2em;
+		width: 375px;
+	}
+}
+
+@media only screen and (min-width: 568px) {
+	.calc {
+		font-size: 2em;
+		width: 568px;
+	}
+}
+
+@media only screen and (min-width: 667px) {
+	.calc {
+		font-size: 2em;
+		width: 667px;
+	}
+}
